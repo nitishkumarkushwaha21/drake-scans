@@ -1,6 +1,6 @@
 import logging from "@/assets/Logging.webp";
 import master from "@/assets/master.webp";
-import insect from "@/assets/insect.webp";
+import insect from "@/assets/body3/15.jpeg";
 import queen from "@/assets/queen.webp";
 import necro from "@/assets/necro.webp";
 
