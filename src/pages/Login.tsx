@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import yun from "../assets/yun.png";
 
-const API_BASE_URL = import.meta.env.VITE_FRONTEND_URL;
+const API_BASE_URL = import.meta.env.VITE_BACKEND_URL;
 
 export default function Login() {
   const [email, setEmail] = useState("");

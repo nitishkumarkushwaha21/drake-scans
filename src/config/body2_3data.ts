@@ -1,8 +1,8 @@
-import logging from "../assets/Logging.webp";
-import master from "../assets/master.webp";
-import insect from "../assets/insect.webp";
-import queen from "../assets/queen.webp";
-import necro from "../assets/necro.webp";
+import logging from "@/assets/Logging.webp";
+import master from "@/assets/master.webp";
+import insect from "@/assets/insect.webp";
+import queen from "@/assets/queen.webp";
+import necro from "@/assets/necro.webp";
 
 export const popularData = [
   { image: logging, title: "Logging 10,000 Years into the Future", chapter: 210 },
@@ -13,19 +13,19 @@ export const popularData = [
 ];
 
 ////////////////////////////////////////////////////////////////////////////
-import i1 from "../assets/body3/1.png";
-import i2 from "../assets/body3/2.png";
-import i3 from "../assets/body3/3.png";
-import i4 from "../assets/body3/4.jpg";
-import i5 from "../assets/body3/5.png";
-import i6 from "../assets/body3/6.png";
-import i7 from "../assets/body3/7.jpg";
-import i8 from "../assets/body3/8.jpg";
-import i9 from "../assets/body3/9.png";
-import i10 from "../assets/body3/10.webp";
-import i11 from "../assets/body3/11.jpg";
-import i12 from "../assets/body3/12.jpg";
-import i13 from "../assets/body3/13.jpg";
+import i1 from "@/assets/body3/1.png";
+import i2 from "@/assets/body3/2.png";
+import i3 from "@/assets/body3/3.png";
+import i4 from "@/assets/body3/4.jpg";
+import i5 from "@/assets/body3/5.png";
+import i6 from "@/assets/body3/6.png";
+import i7 from "@/assets/body3/7.jpg";
+import i8 from "@/assets/body3/8.jpg";
+import i9 from "@/assets/body3/9.png";
+import i10 from "@/assets/body3/10.webp";
+import i11 from "@/assets/body3/11.jpg";
+import i12 from "@/assets/body3/12.jpg";
+import i13 from "@/assets/body3/13.jpg";
 
 
 
