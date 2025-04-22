@@ -1,7 +1,7 @@
 import Seperator1 from "@/components/ui/Seperator1";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-
+const API_BASE_URL = import.meta.env.VITE_BACKEND_URL;
 const Register = () => {
   const [email, setEmail] = useState("");
   const [password1, setPassword1] = useState("");
@@ -22,7 +22,7 @@ const Register = () => {
     }
 
     try {
-      const response = await fetch("http://localhost:3000/register", {
+      const response = await fetch(`${API_BASE_URL}/register`, {
         method: "POST",
         credentials: "include",
         headers: {
